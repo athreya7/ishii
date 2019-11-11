@@ -7,13 +7,12 @@ import { CommonService } from "./common.service";
   styleUrls: ["./app.component.css"]
 })
 export class AppComponent {
-  title = "athreya";
   data1: any;
+  data: any;
+  titles: string[];
   constructor(private commonService: CommonService) {}
   ngOnInit() {
-    this.commonService.getData().subscribe(res => {
-      console.log(res);
-      this.data1 = res;
-    });
+    this.data = this.commonService.getData();
+    this.titles = Object.keys(this.data.Design);
   }
 }
