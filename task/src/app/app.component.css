@@ -1,0 +1,93 @@
+div#test {
+  width: 2px;
+  height: 400px;
+  border-right: 2px solid gray;
+  transform: rotate(135deg);
+  margin-left: 310px;
+}
+div#test2 {
+  width: 2px;
+  height: 400px;
+  border-right: 2px solid gray;
+  transform: rotate(45deg);
+  margin-left: 310px;
+  margin-top: -70px;
+}
+div#main {
+  width: 460px;
+  float: left;
+}
+.ulT li,
+.ulT2 li,
+.ulT3 li {
+  border-top: 2px solid gray;
+}
+.ulT p,
+.ulT2 p,
+.ulT3 p {
+  position: absolute;
+  top: 2px;
+  left: 100px;
+  color: white;
+}
+li {
+  width: 150px;
+  height: 50px;
+  list-style-type: none;
+  text-align: center;
+  padding-top: 20px;
+  box-sizing: border-box;
+}
+ul {
+  position: absolute;
+  left: 36px;
+  top: 50px;
+}
+ul.ul2 {
+  left: 520px;
+}
+ul.ul3 {
+  left: 940px;
+}
+ul.ul4 {
+  top: 308px;
+}
+ul.ul5 {
+  top: 308px;
+  left: 521px;
+}
+ul.ul6 {
+  top: 308px;
+  left: 941px;
+}
+.ulD li,
+.ulD2 li,
+.ulD3 li {
+  border-bottom: 2px solid gray;
+}
+li.first,
+.last {
+  background: gray;
+  color: white;
+  border-top: 2px solid gray !important;
+  border-bottom: 2px solid gray !important;
+}
+li.first {
+  transform: skew(45deg);
+  margin-left: 23px;
+}
+li.last {
+  width: 104px;
+  transform: skew(-45deg);
+  margin-left: 25px;
+}
+
+.ulD p,
+.ulD2 p,
+.ulD3 p {
+  margin: 0;
+  position: absolute;
+  bottom: 14px;
+  color: white;
+  left: 87px;
+}
