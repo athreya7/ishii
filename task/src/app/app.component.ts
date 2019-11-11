@@ -14,5 +14,6 @@ export class AppComponent {
   ngOnInit() {
     this.data = this.commonService.getData();
     this.titles = Object.keys(this.data.Design);
+    console.log(this.data.Design.CompAssy);
   }
 }

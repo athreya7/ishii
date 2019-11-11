@@ -14,7 +14,7 @@ export class CommonService {
 
 let data = {
   Design: {
-    "Comp Assy": [
+    CompAssy: [
       {
         cause: "Non Std Wheel Clearance",
         isActualCause: "Y",
@@ -31,7 +31,7 @@ let data = {
         isSelectedCause: "N"
       }
     ],
-    "Turb Assy": [
+    TurbAssy: [
       {
         cause: "Non Std Wheel Clearance",
         isActualCause: "Y",
