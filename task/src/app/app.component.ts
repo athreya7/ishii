@@ -9,11 +9,10 @@ import { CommonService } from "./common.service";
 export class AppComponent {
   data1: any;
   data: any;
-  titles: string[];
+
   constructor(private commonService: CommonService) {}
   ngOnInit() {
     this.data = this.commonService.getData();
-    this.titles = Object.keys(this.data.Design);
-    console.log(this.data.Design.CompAssy);
+    console.log(this.data);
   }
 }
